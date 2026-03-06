@@ -7,6 +7,8 @@ export default defineConfig({
   base: '/peanut2/',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets'
-  }
+    assetsDir: 'assets',
+    assetsInclude: ['**/*.jpg', '**/*.JPG', '**/*.png', '**/*.svg']
+  },
+  publicDir: 'public'
 })
