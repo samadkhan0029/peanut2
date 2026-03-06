@@ -6,42 +6,42 @@ const slides = [
     text: "",
     lyric: "Tu, tu hai wahi, dil ne jise apna kaha...",
     gradient: "linear-gradient(135deg, #ff6b9d, #ff8fab)",
-    image: "/memory1.jpg"
+    image: "/peanut2/memory1.jpg"
   },
   {
     id: 2,
     text: "", 
     lyric: "Tu hai jahan, main hoon wahan...",
     gradient: "linear-gradient(135deg, #a8e6cf, #dcedc1)",
-    image: "/memory2.jpg"
+    image: "/peanut2/memory2.jpg"
   },
   {
     id: 3,
     text: "",
     lyric: "Ab toh yeh jeena tere bin hai saza.",
     gradient: "linear-gradient(135deg, #ffd3b6, #ffaaa5)",
-    image: "/memory3.JPG"
+    image: "/peanut2/memory3.JPG"
   },
   {
     id: 4,
     text: "",
     lyric: "Ohhh mil jaaye iss tarah...",
     gradient: "linear-gradient(135deg, #e8b4f3, #f8d7da)",
-    image: "/memory4.JPG"
+    image: "/peanut2/memory4.JPG"
   },
   {
     id: 5,
     text: "",
     lyric: " Doh lehre jis tarah...",
     gradient: "linear-gradient(135deg, #c9e4ca, #87ceeb)",
-    image: "/memory5.JPG"
+    image: "/peanut2/memory5.JPG"
   },
   {
     id: 6,
     text: "",
     lyric: "phir ho naah judaa, Haan ye vaada raha...",
     gradient: "linear-gradient(135deg, #f4c4bc, #d8bfd8)",
-    image: "/memory6.JPG"
+    image: "/peanut2/memory6.JPG"
   }
 ];
 
