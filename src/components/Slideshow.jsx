@@ -50,6 +50,14 @@ function Slideshow() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [showFinal, setShowFinal] = useState(false);
 
+  // Preload next image
+  useEffect(() => {
+    if (currentSlide < slides.length - 1) {
+      const nextImage = new Image();
+      nextImage.src = slides[currentSlide + 1].image;
+    }
+  }, [currentSlide]);
+
   useEffect(() => {
     if (!isPlaying) return;
 
@@ -107,6 +115,7 @@ function Slideshow() {
               <img 
                 src={slides[currentSlide].image} 
                 alt={slides[currentSlide].text}
+                loading="eager"
                 style={{
                   width: '100%',
                   height: '100%',
